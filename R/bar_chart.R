@@ -5,7 +5,8 @@
 #' @param x A string representing the name of the x variable.
 #' @param y A string representing the name of the y variable.
 #' @examples
-#' bar_chart(mtcars, "cyl", "mpg")
+#' data <- data.frame(category = c("A", "B", "C"), values = c(10, 20, 30))
+#' bar_chart(data, "category", "values")
 #' @export
 bar_chart <- function(data, x, y) {
   ggplot2::ggplot(data, ggplot2::aes_string(x = x, y = y)) +
