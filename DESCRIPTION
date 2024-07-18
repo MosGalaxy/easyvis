@@ -1,0 +1,14 @@
+Type: Package
+Package: easyvis
+Title: Simplified Data Visualization Tools
+Version: 0.1.0
+Author: MosGalaxy [aut, cre]
+Maintainer: MosGalaxy <aqua.bluzz77@gmail.com>
+Description: This package provides functions to create customized scatter
+    plots and bar charts using ggplot2 with minimal code.
+License: MIT
+Imports:
+    dplyr (>= 1.0.0),
+    ggplot2 (>= 3.3.0)
+Encoding: UTF-8
+RoxygenNote: 7.3.2
